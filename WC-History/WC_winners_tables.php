@@ -4,58 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="WC_winners_tables.css">
     <title>WC Information || History</title>
     
     <h1>History of the World Cup</h1>
 </head>
-
-<style>
-    html{
-        font-family: Arial, Helvetica, sans-serif;
-        
-    }
-    h1{
-        text-align:center;
-        font-size: 50px;
-        margin: 100px;
-    }
-    h3{
-        text-align: center;
-        font-size: 30px;
-    }
-   
-    .T1,.T2,th,td{
-        margin: auto;
-        border: 1px solid;
-        border-collapse: collapse;
-        
-    }
-    th{
-        height: 70px;
-        width: 150px;
-        border: 2px solid;
-        padding:10px;
-        background-color: #04AA6D;
-    }
-    td{
-        height:50px;
-        text-align: center;
-        padding:10px;
-    }
-    tr:hover{
-        background-color: pink;
-    }
-    td a { 
-        display: block; 
-        padding: 20px;
-        text-decoration: none;
-        color: black;
-    }
-    td:hover{
-        background-color: lightblue;
-    }
-    
-</style>
 
 <body>
     <div class = Table1>
@@ -129,7 +83,13 @@
 
             ?>
         </table>
+        <br><br><br><br>
     </div>
+
+    <footer>
+
+            
+    </footer>
 </body>
 </html>
 
