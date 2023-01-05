@@ -86,7 +86,7 @@
         <br><br><br><br>
     </div>
 
-    <div class = Table1>
+    <div class = Table3>
         <h3>Match Information</h3>
         <table class = T1>
             <tr>
@@ -132,7 +132,7 @@
         </table>    
     </div>
 
-    <div class = Table1>
+    <div class = Table4>
         <h3>Player Information</h3>
         <table class = T1>
             <tr>
