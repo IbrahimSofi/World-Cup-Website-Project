@@ -1,0 +1,98 @@
+body{
+    background: white;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+#maindiv{
+    margin-top: 50px;
+    
+}
+#topPanel{
+  color: white;
+  margin-bottom: 20px;
+  background-color: green;
+  height: 120px;
+  position: relative;
+  top: -50px;
+  width: 100%;
+}
+h1{
+    text-align: center;
+}
+
+#cards{
+    color: green ;
+    margin-top: 100px;
+    margin-bottom: 180px;
+
+}
+
+#images{
+    margin-left: 60px;
+}
+
+.heading{
+    font-size: 15px;
+    color: green;
+    text-align: center;
+}
+
+.details{
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 50px 40px; 
+    position: relative;
+    z-index: 1;
+}
+
+.details h2{
+    font-size: 40px;
+    transition: 0.2s all;
+
+}
+
+.details a{
+    text-decoration: none;
+    color: #fff;
+    background-color: green;
+    padding: 6px 12px;
+    display: inline-block;
+    font-size: 20px;
+    border: 1px solid green;
+    transition: 0.5s ease;
+    transition: 0.2s all;
+    text-align: center;
+}
+
+.details a:hover{
+    background-color: #fff;
+    color: green;
+}
+
+.details::before{
+    content: "";
+    width: 5px;
+    height: 100%;
+    background-color: green;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.6s all;
+}
+
+.details:hover::before{
+    width: 100%;
+}
+
+.details:hover h2{
+    color: #fff;
+}
+
+.details:hover a{
+    background-color: #fff;
+    color: green;
+}
+
+
+
+
