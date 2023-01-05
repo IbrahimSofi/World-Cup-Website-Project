@@ -29,10 +29,10 @@
                 $server = "localhost";
                 $username = "root";
                 $password = "";
-                $dbNAME = "WC_info";
+                $dbNAME = "worldcup_info";
 
                 $connect = mysqli_connect($server,$username,$password,$dbNAME);
-                $display = "SELECT * FROM HistoryList";
+                $display = "SELECT * FROM historylist";
                 $result = mysqli_query($connect, $display);
 
                 while($row = mysqli_fetch_assoc($result)){
@@ -66,7 +66,7 @@
             
 
             <?php
-                $display = "SELECT * FROM Result order by WINS DESC, FINALS_ATTENDED DESC ";
+                $display = "SELECT * FROM result order by WINS DESC, FINALS_ATTENDED DESC ";
                 $result = mysqli_query($connect, $display);
 
                 while($row = mysqli_fetch_assoc($result)){
@@ -92,5 +92,6 @@
     </footer>
 </body>
 </html>
+
 
 
